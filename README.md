@@ -31,7 +31,7 @@ Dan sampai sini kita selesai membuat program perulangan bertingkat dan bisa mela
 
 # LATIHAN 2
 
-![Gambar 3](FOto/latihan2.png)
+![Gambar 3](Foto/latihan2.png)
 
 Tugas kedua yang di berikan oleh Dosen untuk mencari nnilai yang bernominal dibawah 0,5 Maka saya menggunakan syntx seperi berikut 
 ````python
@@ -46,3 +46,23 @@ Tugas kedua yang di berikan oleh Dosen untuk mencari nnilai yang bernominal diba
         angkaDec = random.uniform(0, 0.5)
         print("Data ke", i, " = ", angkaDec)
 ````
+
+Syntax di atas untuk mencari bilangan random dibawah 0,5 
+````py
+    import random
+````
+Sementara untuk menentukan jumlah inputan yang diinginkan maka perlu memasukan
+````py
+    jum = int( input("Masukan nilai n : "))
+````
+Dan untuk menampilkan urutan sesua jumlah inputan dengan hasil di bawah 0,5 dengan menggunakan syntax berikut 
+````py
+    angkaDec = random.uniform(0, 0.5)
+        print("Data ke", i, " = ", angkaDec)
+````
+Jika sudah selesai membuat program untuk mencari nilai random di bawah 0,5 dan sekarang kita bisa menjalankan program nya dengan gambar berikut 
+
+![Gambar 4](Foto/Hasil2.png)
+
+
+# Selesai
